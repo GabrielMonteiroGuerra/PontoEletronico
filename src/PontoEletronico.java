@@ -23,8 +23,6 @@ public class PontoEletronico {
 			else {
 				minutos = minuto_ultimoponto + 60 - minuto_primeiroponto;
 			}
-			total = horas - tempointervalo;
-			System.out.println(total);
 			System.out.println(horas);
 			System.out.println(tempointervalo);
 			JOptionPane.showMessageDialog(null, "Você trabalhou: "+horas+"horas e "+minutos+"minutos");
